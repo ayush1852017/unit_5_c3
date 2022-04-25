@@ -34,7 +34,7 @@ export const Login = () => {
       alert("wrong email or password");
     }
   }
-  const handelchange = (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setUser({
       ...user,
